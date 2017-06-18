@@ -1,0 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               faCr | Blog
+tagline:             'Balcão dos Desesperados'
+description:         'Co Fundador <a href="http://emptybits.com.br/" target="_blank">Empty Bits</a>.<br>Artigos variados, bem humorados e que <del>vão</del> podem até te ajudar em alguma coisa. (É sério!).<br> Autor <a href="https://facr.github.io/" target="_blank">faCr</a>.'
+url:                 https://facr.github.io/
+baseurl:             'https://facr.github.io/blog'
+paginate:            5
+
+# About/contact
+author:
+  name:              Carlos Roberto
+  url:               https://twitter.com/D0onald
+  email:             crpu4a@gmail.com
+
+# Custom vars
+version:             1.0.0
+gems: [jekyll-paginate]

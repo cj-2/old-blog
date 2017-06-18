@@ -1,0 +1,24 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Início do blog</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/blog/sobre">Sobre o autor</a>
+    <a class="sidebar-nav-item" href="https://github.com/faCr/">Link GitHub</a>
+    <a class="sidebar-nav-item" href="https://facr.github.io">Portfólio</a>
+    <span class="sidebar-nav-item">- Carlos Roberto</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. Código aberto. <br> Copiou algum dos meus posts? <br> Cite as fontes!
+    </p>
+  </div>
+</div>
